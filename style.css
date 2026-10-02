@@ -1,0 +1,55 @@
+body {
+  font-family: system-ui, sans-serif;
+  background: #f4f1ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  max-width: 500px;
+  width: 90%;
+  text-align: center;
+}
+
+h1 {
+  color: #5b4bdb;
+  margin-top: 0;
+}
+
+button {
+  background: #5b4bdb;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #4636c4;
+}
+
+button:disabled {
+  background: #aaa;
+  cursor: wait;
+}
+
+#setup {
+  font-size: 20px;
+  margin-top: 28px;
+}
+
+#punchline {
+  font-size: 20px;
+  font-weight: bold;
+  color: #5b4bdb;
+  min-height: 28px;
+}
